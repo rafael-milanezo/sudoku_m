@@ -9,7 +9,7 @@ class knowledge:
         Regras do jogo:
         (1) - Em casa quadrado, linha e coluna somente deve haver somente um exemplar de cada número
             ex: Casa A1 = 1, então em todos A~'s e ~1's e na região que ele se encontra não devem haver outro 1
-        (2) - 
+        (2) - Se em uma linha, um valor possível é único, levando em consideração todos os valores POSSÍVEIS também das células que fazem 'interseção'
         """
         self.lines = "123456789" # números de linhas
         self.columns = "ABCDEFGHI" # número de colunas
